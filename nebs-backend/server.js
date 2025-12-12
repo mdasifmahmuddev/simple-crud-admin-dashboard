@@ -6,7 +6,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const uri = "mongodb+srv://mdasifmahmuddev_db_user:9sA7fwt60wvRYoly@mdasifmahmuddev.ycldbcx.mongodb.net/?appName=mdasifmahmuddev";
+
+
+//const uri = "mongodb+srv://mdasifmahmuddev_db_user:9sA7fwt60wvRYoly@mdasifmahmuddev.ycldbcx.mongodb.net/?appName=mdasifmahmuddev";
 
 const client = new MongoClient(uri, {
   serverApi: {
